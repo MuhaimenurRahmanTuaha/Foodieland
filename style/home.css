@@ -1,0 +1,921 @@
+/* head section starts */
+.head-section{
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    width: 150px;
+    height: 150px;
+}
+.badge img{
+    width: 150px;
+    height: 150px;
+}
+.left-background{
+    width: 2.78%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    background-color: rgba(231,249,253,1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.head-content {
+    width: 88.89%; 
+    height: 640px;
+    border-radius: 60px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(231,250,254,1); 
+    font-family: "Inter";
+}
+
+.head-left_portion{
+    width: 620px;;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.hot-recipes{
+    width: 156px;
+    height: 45px;
+    background-color: white;
+    box-shadow: 10px 20px 40px 0px rgba(41, 64, 70, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    padding: 11px 20px;
+}
+.hot-recipes img{
+    width: 24px;
+    height: 24px;  
+}
+.hot-recipes span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+
+.head-caption{
+    width: 520px;
+    height: 154px;
+    margin-top: 32px;
+}
+.head-caption h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    color: rgba(0,0,0,1);
+}
+
+.head-details{
+    width: 520px;
+    height: 56px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(0,0,0,0.6);
+}
+
+.head-time{
+    display: flex;
+}
+
+.head-time_left{
+    width: 139px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 30px;
+    border: none;
+}
+.timer{
+   width: 24px;
+   height: 24px;
+   color: black; 
+}
+.head-time_left span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: rgba(0,0,0,0.6);
+}
+
+.head-time_right{
+    width: 119px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 16px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 30px;
+    border: none;
+}
+
+.forkKnife{
+    width: 24px;
+    height: 24px;
+    color: black; 
+ }
+
+.head-time_right span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: rgba(0,0,0,0.6);
+}
+
+.head-profile{
+    display: flex;
+    justify-content: space-between;
+}
+.head-profile_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 163px;
+    height: 50px;
+    margin-top: 104px;
+}
+.head-profile_image{
+    height: 50px;
+}
+.head-profile_image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.head-profile_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    padding: 3px 0;
+}
+.profile-name{
+    font-weight: 700;
+    size: 16px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+.profile-date{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: rgba(0,0,0,0.6);
+}
+
+.head-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border: none;
+    margin-top: 99px;
+    margin-left: 157px;
+    border-radius: 16px;
+    background-color: black;
+    padding: 18px 37px;
+    cursor: pointer;
+}
+.head-btn span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: rgba(255,255,255,1);
+}
+.head-btn img{
+    width: 24px;
+    height: 24px;
+}
+
+.head-right_portion{
+    width: 660px;
+    background-image: url('../images/banner.jpg');
+    background-size: 982px 640px;      
+    background-position: -262 px 0;
+    background-repeat: no-repeat;
+}
+
+.right-background{
+    width: 2.78%;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    background-color: rgba(231,249,253,1);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+/* head section ends */
+
+/* categories section starts */
+.categories{
+    margin: 160px 80px 0 80px;
+    width: 88.89%;
+    font-family: "Inter";
+}
+
+.upper-categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.upper-categories h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+.categories-btn{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(231,250,254,1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    cursor: pointer;
+}
+.lower-categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 202px;
+    margin-top: 80px;
+}
+.categories-card{
+    width: 180px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.categories-card img{
+    width: 100px;
+    height: 100px;
+}
+.categories-card span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    margin-top: 50px;
+}
+.breakfast{
+    background: linear-gradient(to bottom, rgba(112, 130, 70, 0), rgba(112, 130, 70, 0.1));
+}
+.vegan{
+    background: linear-gradient(to bottom, rgba(108, 198, 63, 0), rgba(108, 198, 63, 0.1));
+}
+.meat{
+    background: linear-gradient(to bottom, rgba(204,38,27, 0), rgba(204,38,27, 0.1));
+}
+.dessert{
+    background: linear-gradient(to bottom, rgba(240,158,0, 0), rgba(240,158,0, 0.1));
+}
+.lunch{
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0, 0.05));
+}
+.chocolate{
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0, 0.05));
+}
+
+/* categories section ends */
+
+/* upper recipes section starts */
+.upper-recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    height: 1616px;
+    margin-top: 183px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 143px;
+}
+.upper-recipe-caption{
+    margin-bottom: 24px;
+}
+.upper-recipe-caption h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+.upper-recipe-desc{
+    text-align: center;
+    width: 706px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 96px;
+}
+.upper-recipe-container{
+    width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px; 
+}
+.upper-recipe-card{
+    display: flex;
+    position: relative;
+    padding: 16px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, rgba(231,249,253,0), rgba(231,249,253, 1));
+    flex-direction: column;
+    justify-content: space-between;
+}
+.recipe-reactIcon{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 316px;
+    top: 36px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recipe-reactIcon img{
+    width: 20.25px;
+    height: 18px;
+
+}
+.upper-recipe-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 368px;
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.upper-recipe-img img{
+    width: 368px;
+    height: 364px;
+}
+.upper-recipe-title{
+    width: 352px;
+    height: 64px;
+    margin-left: 8px;
+}
+.upper-recipe-title h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -4%;
+    color: black;
+}
+.upper-recipe-bottom-part{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: 8px;
+}
+.upper-recipe-bottom-part_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 107px;
+    height: 24px;
+}
+.upper-recipe-bottom-part_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84px;
+    height: 24px;
+}
+.upper-recipe-bottom-part_left img,.upper-recipe-bottom-part_right img{
+    width: 24px;
+    height: 24px;
+}
+.upper-recipe-bottom-part_left span,.upper-recipe-bottom-part_right span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+/* upper recipes section ends */
+
+/* learn more section starts */
+.learn-more{
+    width: 1280px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 597px;
+    display: flex;
+    justify-content: space-between;
+}
+.learn-more_left{
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 100%;
+}
+.learn-more_caption{
+    margin-top: 169px;
+    width: 526px;
+    height: 116px;
+}
+.learn-more_caption h2{
+    font-weight: 600px;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+.learn-more_desc{
+    margin-top: 24px;
+    margin-bottom: 72px;
+    width: 508px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(0,0,0,0.6);
+}
+.learn-more-btn{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 16px;
+    padding: 21px 51px 21px 51px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    cursor: pointer;
+}
+.learn-more_right{
+    width: 651px;
+    height: 500px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, rgba(231,249,253,0), rgba(231,249,253, 1));
+    border: none;
+    position: relative;
+    margin-top: 97px;
+}
+.learn-tomato{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 423px;
+    left: -25px;
+}
+.learn-meat{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    transform: rotate(-15deg);
+    left: 43px;
+    top: -27px;
+}
+.learn-onion{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 409px;
+    top: 0;
+}
+.learn-vegan{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 535px;
+    top: 70px;
+}
+.learn-chef{
+    width: 660px;
+    height: 597px;
+    position: absolute;
+    left: -59px;
+    bottom: 0;
+}
+
+/* learn more section ends */
+
+/* instagram section starts */
+.instagram-section{
+    width: 1440px;
+    height: 964px;
+    margin-top: 160px;
+    padding: 80px;
+    background: linear-gradient(to bottom, rgba(231,249,253,0), rgba(231,249,253, 1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instagram-section_upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 840px;
+    height: 138px;
+}
+.instagram-section_caption h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+.instagram-section-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+}
+.instagram-section-container{
+    width: 1280px;
+    height: 445.44px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.instagram-section-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.instagram-card-upper-portion{
+    display: flex;
+    padding: 8.51px 7.73px 8.51px 7.73px;
+    justify-content: space-between;
+    height: 41.76px;
+}
+.insta-profile{
+    display: flex;
+    width: 102.44px;
+    height: 24.75px;
+    justify-content: space-between;
+}
+.insta-profile-img{
+    width: 24.75px;
+    height: 24.75px;
+}
+.insta-profile-img img{
+    width: 24.75px;
+    height: 24.75px;
+}
+.insta-profile_info{
+    width: 57px;
+    height: 24.05px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 7.73px;
+}
+.insta-profile_info h6{
+    font-weight: 600;
+    font-size: 10..05px;
+    line-height: 13.92px;
+    letter-spacing: -0.08px;
+}
+.insta-profile_info span{
+    font-weight: 400;
+    font-size: 8.51px;
+    line-height: 100%;
+    letter-spacing: 0.05px;
+}
+.verification-icon{
+    width: 7.65px;
+    height: 7.58px;
+    margin-left: 2.31px;
+    background-image: url("../images/icons/insta-icons/verification-icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3.86px;
+}
+.insta-option-bar{
+    width: 10.83px;
+    height: 2.32px;
+}
+.insta-option-bar img{
+    width: 10.83px;
+    height: 2.32px;
+}
+.instagram-card-img{
+    height: 290px;
+    position: relative;
+}
+.instagram-card-img img{
+    width: 100%;
+    height: 290px;
+}
+.instagram-card-img div{
+    width: 26.29px;
+    height: 20.11px;
+    border: none;
+    border-radius: 43%;
+    background-color: gray;
+    border: none;
+    position: absolute;
+    left: 252.88px;
+    top: 10.83px;
+    font-weight: 400;
+    font-size: 9.28px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: white;
+    padding: 5.64px 6.19px 4.64px 6.19px;
+}
+.instagram-card-lower-portion{
+    height: 113.68px;
+    padding: 10.44px 10.83px 10.44px 10.83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.left-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90.66px;
+}
+.love-icon{
+    background-image: url("../images/icons/insta-icons/like.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 18.3px;
+    height: 15.91px;
+}
+.comment-icon{
+    background-image: url("../images/icons/insta-icons/Comment.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17.01px;
+    height: 17.01px;
+}
+.share-icon{
+    background-image: url("../images/icons/insta-icons/Messanger.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17.58px;
+    height: 15.28px;
+}
+.middle-icons{
+    background-image: url("../images/icons/insta-icons/Pagination.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20.11px;
+    height: 4.64px;
+    position: absolute;
+    left: 134.95px;
+}
+.right-icons{
+    background-image: url("../images/icons/insta-icons/Save.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15.85px;
+    height: 17.9px;
+}
+.liked-portion{
+    width: 203.39px;
+    height: 14.69px;
+    display: flex;
+    align-items: center;
+    gap: 5.05px;
+}
+.liked-portion img{
+    width: 13.15px;
+    height: 13.15px;
+}
+.liked-portion span{
+    font-weight: 400;
+    font-size: 10.05px;
+    line-height: 13.92px;
+    letter-spacing: -0.05px;
+    color: rgba(38,38,38,1);
+}
+.liked-portion span strong{
+    font-weight: 600;
+}
+.post-caption{
+    height: 27.84px;
+    font-weight: 400;
+    font-size: 10.05px;
+    line-height: 13.92px;
+    letter-spacing: -0.08px;
+    color: rgba(38,38,38,1);
+}
+.post-caption strong{
+    font-weight: 600;
+}
+.date{
+    font-weight: 400;
+    font-size: 8.51px;
+    line-height: 100%;
+    letter-spacing: 0.04px;
+    color: rgba(0,0,0,0.4);
+}
+.instagram-button{
+    margin-top: 80.56px;
+}
+.instagram-button button{
+    width: 229px;
+    height: 60px;
+    border: none;
+    border-radius: 16px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    cursor: pointer;
+}
+.instagram-button button span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+.instagram-button button img{
+    width: 22px;
+    height: 22px;
+}
+/* instagram section ends */
+
+/* bottom recipe section starts */
+.bottom-recipe{
+    width: 1280px;
+    height: 868px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.bottom-recipe_upper-portion{
+    width: 100%;
+    height: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-recipe_upper_caption{
+    width: 507px;
+    height: 116px;
+}
+.bottom-recipe_upper_caption h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    color: black;
+}
+.bottom-recipe_right_desc{
+    width: 620px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(0,0,0,0.6);
+}
+.bottom-recipe_lower-portion{
+    width: 1280px;
+    height: 672px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, auto);
+    gap: 40px;
+}
+.bottom-recipe_lower_card{
+    display: flex;
+    position: relative;    
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lower-recipe-reactIcon{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 226px;
+    top: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower-recipe-reactIcon img{
+    width: 20.25px;
+    height: 18px;
+
+}
+.lower-recipe-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.lower-recipe-img img{
+    width: 290px;
+    height: 291.2px;
+}
+.lower-recipe-title{
+    height: 64px;
+}
+.lower-recipe-title h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -4%;
+    color: black;
+}
+.lower-recipe-bottom-part{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.lower-recipe-bottom-part_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 107px;
+    height: 24px;
+}
+.lower-recipe-bottom-part_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84px;
+    height: 24px;
+}
+.lower-recipe-bottom-part_left img,.lower-recipe-bottom-part_right img{
+    width: 24px;
+    height: 24px;
+}
+.lower-recipe-bottom-part_left span,.lower-recipe-bottom-part_right span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+/* bottom recipe section ends */

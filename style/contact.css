@@ -1,0 +1,151 @@
+/* contact-form starts */
+.contact-container{
+    width: 89.825%;
+    height: 733px;
+    margin-top: 124px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between; 
+}
+.contact-left{
+    width: 400px;
+    margin-top: 149px;
+}
+.gradinent-portion{
+    width: 400px;
+    height: 472px;
+    background: linear-gradient(to bottom, rgba(231,249,253,0), rgba(231,249,253,1));
+    border: none;
+    border-radius: 30px;
+}
+.contact-left img{
+    width: 350px;
+    height: 472px;
+    margin-left: 30px;
+}
+.contact-right{
+    width: 840px;
+    height: 733px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-right h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    color: black;
+}
+.contact-form{
+    margin-top: 40px;
+}
+.upper-form{
+    display: flex;
+    flex-direction: column;
+}
+.upper-form_upper{
+    display: flex;
+    justify-content: space-between;
+}
+.upper-form_lower{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 8%;
+    color: rgba(0,0,0,0.6);
+}
+.input-field{
+    width: 400px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.input-field input{
+    width: 400px;
+    height: 60px;
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 16px;
+    padding: 20px;
+
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -2%;
+}
+.input-field select{
+    width: 400px;
+    height: 60px;
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 16px;
+    padding: 20px;
+    appearance: none;
+    color: rgba(0, 0, 0, 0.5);
+    background-image: url("../images/icons/arrow-sign.png");
+    background-size: 12px 6px;
+    background-repeat: no-repeat;
+    background-position: 368px 27px;
+
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -2%;
+}
+.input-field select:valid{
+    color: rgba(0,0,0,1);
+}
+.lower-form{
+    display: flex;
+    flex-direction: column;
+}
+.lower-form label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 8%;
+    color: rgba(0,0,0,0.6);
+}
+.lower-form textarea{
+    margin-top: 12px;
+    width: 840px;
+    height: 200px;
+    resize: none;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: rgba(255,255,255,1);
+    border-radius: 16px;
+
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -2%;
+}
+.submit-btn{
+    width: 180px;
+    height: 64px;
+    border-radius: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    padding: 20px 63px;
+    cursor: pointer;
+}
+/* contact-form ends */
+
