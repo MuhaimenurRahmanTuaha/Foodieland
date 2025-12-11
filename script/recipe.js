@@ -6,7 +6,7 @@ const recipeId = params.get("id");
 fetch("../script/recipe.json") // Adjust path if needed
   .then(res => res.json())
   .then(data => {
-    const recipe = data.find(item => item.id === recipeId);
+    const recipe = data.find(item => item.id.toString() === recipeId);
     if (!recipe) {
       document.getElementById("recipe-detail").innerHTML = "<h2>Recipe not found.</h2>";
       return;
